@@ -1,0 +1,14 @@
+@import "colores";
+
+$redes:(facebook:$Azul,whatsapp:$Verde,instagram:$Violeta,inicio:$Negro,home:$Azuloscuro);
+
+
+
+@each $red ,$colores in $redes{
+	.boton--#{$red}{
+	color:$colores;
+	border:1px solid $colores;
+	text-decoration:none;
+	}
+}
+
