@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walterm99/Proyecto-Hellbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Walterm99/Proyecto-Hellbox/issues"
+  },
+  "homepage": "https://github.com/Walterm99/Proyecto-Hellbox#readme",
   "description": ""
 }

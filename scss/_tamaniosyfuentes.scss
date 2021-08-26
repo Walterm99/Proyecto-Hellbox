@@ -1,13 +1,11 @@
+@import "colores";
 $tituloDesktop:40px;
 $tituloMobile:$tituloDesktop/2;
 $parrafoDesktop:25px;
 $parrafoMobile:$parrafoDesktop/2;
 
-.index_color{
-	background-color:$Negro;
-	@media only screen and (max-width:767px){background-color:$Verde;}
-}
-.titulo_index{
+//medidas y mediasquerys de los titulos y subtitulos en general
+.titulos{
 	h1{
 	font-size:$tituloDesktop;
 	color:$Rojo;
@@ -23,183 +21,59 @@ $parrafoMobile:$parrafoDesktop/2;
 	}
 	}
 }
-.subtitulo_index{
+.subtitulos{
 	h2{font-size:$tituloMobile;
 	color:$Violeta;
 	text-align:center;}
 }
-.parrafo_index__style{
+.parrafos{
 	p{
 		font-size:$parrafoDesktop;
-		color:$Purpura;
+		color:$Negro;
 		text-aling:right;
-		font-style:italic;
+		font-style:bold;
 	}
 }
 
-.nosotros_color{
-	background-color:$Negro;
-	
-}
-.titulo_nosotros{
-	h1{
-	font-size:$tituloDesktop;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
-	}
-	@media only screen and (max-width:767px){
-	h1{
-	font-size:$tituloMobile;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
 
-	}
-	}
-}
-.subtitulo_nosotros{
-	h2{font-size:$tituloMobile;
-	color:$Violeta;
-	text-align:center;}
-}
-.parrafo_nosotros__style{
-	p{
-		font-size:$parrafoDesktop;
-		color:$Purpura;
-		text-aling:right;
-		font-style:italic;
-	}
-}
 
-.contacto_color{
-	background-color:$Negro;
-	}
-.titulo_contacto{
-	h1{
-	font-size:$tituloDesktop;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
-	}
-	@media only screen and (max-width:767px){
-	h1{
-	font-size:$tituloMobile;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
 
-	}
-	}
-}
-.subtitulo_contacto{
-	h2{font-size:$tituloMobile;
-	color:$Violeta;
-	text-align:center;}
-}
-.parrafo_contacto__style{
-	p{
-		font-size:$parrafoDesktop;
-		color:$Purpura;
-		text-aling:right;
-		font-style:italic;
-	}
-}
-
-.producto_color{
-	background-color:$Negro;
-}
-.titulo_producto{
-	h1{
-	font-size:$tituloDesktop;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
-	}
-	@media only screen and (max-width:767px){
-	h1{
-	font-size:$tituloMobile;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
-
-	}
-	}
-}
-.subtitulo_producto{
-	h2{font-size:$tituloMobile;
-	color:$Violeta;
-	text-align:center;}
-}
-.parrafo_producto__style{
-	p{
-		font-size:$parrafoDesktop;
-		color:$Purpura;
-		text-aling:center;
-		font-style:italic;
-	}
-	@media only screen and (max-widht:767px){
-	p{
-	font-size:$parrafoMobile;
-	color:$Purpura;
-	text-aling:center;
-	font-style:italic;
-	}
-	}
-}
-.parrafo_producto__form___style{
-	p{
-	font-size:$parrafoDesktop;
-	color:$Purpura;
-	text-align:right;
-	font-style:italic;
-	}
-}
-
-.galeria_color{
-	background-color:$Negro;
+//Personalizacion del nav
+.backgroundNav{
+	background-color:$Rojo
 
 }
-.titulo_galeria{
-	h1{
-	font-size:$tituloDesktop;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
-	}
-	@media only screen and (max-width:767px){
-	h1{
-	font-size:$tituloMobile;
-	color:$Rojo;
-	text-align:center;
-	text-decoration:underline;
-
-	}
-	}
-}
-
 
 .tamañoNav{
 	font-size:$tituloDesktop;
 @media only screen and(max-width:767px){font-size:$tituloMobile}
 }
-.tamañoVideo__index{width:550px; height:400px;
-@media only screen and (max-width:767px){width:150px; height:150px;}}
-	
-.tamañoImagen_galeria{width:300px; height:300px;
-@media only screen and (max-width:767px){width:150px; height:150px;}
+
+.txtNav{
+	a{
+	color:$Negro;
+	text-align:center;
+	}
 }
 
+//Personalizacion en tamaño de imagenes
+.tamañoImagen{width:600px; height:600px;
+@media only screen and (max-width:767px){width:250px; height:250px;}
+}
+
+//Personalizacion del tamaño del mapa
 .tamañoMapaContacto{
 	@media only screen and (max-width:767px){width:200px; height:150px}
 }
 
+//Personalizacion del tamaño de la tabla
 .tamañoTabla{
 	@media only screen and(max-width:767px){
 	overflow-x:scroll;
 	}
 }
 
+//Personalizacion del tamaño de la imagen del error 404
 .tamañoImagen404{ width:100px; height:600px;
 	@media only screen and(max-width:767px){
 	overflow-x:scroll;

@@ -1,143 +1,30 @@
 @charset "UTF-8";
-.index_color {
-  background-color: black; }
-  @media only screen and (max-width: 767px) {
-    .index_color {
-      background-color: green; } }
-
-.titulo_index h1 {
+.titulos h1 {
   font-size: 40px;
   color: red;
   text-align: center;
   text-decoration: underline; }
 
 @media only screen and (max-width: 767px) {
-  .titulo_index h1 {
+  .titulos h1 {
     font-size: 20px;
     color: black;
     text-align: center;
     text-decoration: underline; } }
 
-.subtitulo_index h2 {
+.subtitulos h2 {
   font-size: 20px;
   color: violet;
   text-align: center; }
 
-.parrafo_index__style p {
+.parrafos p {
   font-size: 25px;
-  color: darkviolet;
+  color: black;
   text-aling: right;
-  font-style: italic; }
+  font-style: bold; }
 
-.nosotros_color {
-  background-color: black; }
-
-.titulo_nosotros h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_nosotros h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
-
-.subtitulo_nosotros h2 {
-  font-size: 20px;
-  color: violet;
-  text-align: center; }
-
-.parrafo_nosotros__style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-aling: right;
-  font-style: italic; }
-
-.contacto_color {
-  background-color: black; }
-
-.titulo_contacto h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_contacto h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
-
-.subtitulo_contacto h2 {
-  font-size: 20px;
-  color: violet;
-  text-align: center; }
-
-.parrafo_contacto__style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-aling: right;
-  font-style: italic; }
-
-.producto_color {
-  background-color: black; }
-
-.titulo_producto h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_producto h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
-
-.subtitulo_producto h2 {
-  font-size: 20px;
-  color: violet;
-  text-align: center; }
-
-.parrafo_producto__style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-aling: center;
-  font-style: italic; }
-
-@media only screen and (max-widht: 767px) {
-  .parrafo_producto__style p {
-    font-size: 12.5px;
-    color: darkviolet;
-    text-aling: center;
-    font-style: italic; } }
-
-.parrafo_producto__form___style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-align: right;
-  font-style: italic; }
-
-.galeria_color {
-  background-color: black; }
-
-.titulo_galeria h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_galeria h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
+.backgroundNav {
+  background-color: red; }
 
 .tamañoNav {
   font-size: 40px; }
@@ -145,21 +32,17 @@
     .tamañoNav {
       font-size: 20px; } }
 
-.tamañoVideo__index {
-  width: 550px;
-  height: 400px; }
-  @media only screen and (max-width: 767px) {
-    .tamañoVideo__index {
-      width: 150px;
-      height: 150px; } }
+.txtNav a {
+  color: black;
+  text-align: center; }
 
-.tamañoImagen_galeria {
-  width: 300px;
-  height: 300px; }
+.tamañoImagen {
+  width: 600px;
+  height: 600px; }
   @media only screen and (max-width: 767px) {
-    .tamañoImagen_galeria {
-      width: 150px;
-      height: 150px; } }
+    .tamañoImagen {
+      width: 250px;
+      height: 250px; } }
 
 @media only screen and (max-width: 767px) {
   .tamañoMapaContacto {
@@ -177,145 +60,32 @@
     .tamañoImagen404 {
       overflow-x: scroll; } }
 
-.index_color {
-  background-color: black; }
-  @media only screen and (max-width: 767px) {
-    .index_color {
-      background-color: green; } }
-
-.titulo_index h1 {
+.titulos h1 {
   font-size: 40px;
   color: red;
   text-align: center;
   text-decoration: underline; }
 
 @media only screen and (max-width: 767px) {
-  .titulo_index h1 {
+  .titulos h1 {
     font-size: 20px;
     color: black;
     text-align: center;
     text-decoration: underline; } }
 
-.subtitulo_index h2 {
+.subtitulos h2 {
   font-size: 20px;
   color: violet;
   text-align: center; }
 
-.parrafo_index__style p {
+.parrafos p {
   font-size: 25px;
-  color: darkviolet;
+  color: black;
   text-aling: right;
-  font-style: italic; }
+  font-style: bold; }
 
-.nosotros_color {
-  background-color: black; }
-
-.titulo_nosotros h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_nosotros h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
-
-.subtitulo_nosotros h2 {
-  font-size: 20px;
-  color: violet;
-  text-align: center; }
-
-.parrafo_nosotros__style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-aling: right;
-  font-style: italic; }
-
-.contacto_color {
-  background-color: black; }
-
-.titulo_contacto h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_contacto h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
-
-.subtitulo_contacto h2 {
-  font-size: 20px;
-  color: violet;
-  text-align: center; }
-
-.parrafo_contacto__style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-aling: right;
-  font-style: italic; }
-
-.producto_color {
-  background-color: black; }
-
-.titulo_producto h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_producto h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
-
-.subtitulo_producto h2 {
-  font-size: 20px;
-  color: violet;
-  text-align: center; }
-
-.parrafo_producto__style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-aling: center;
-  font-style: italic; }
-
-@media only screen and (max-widht: 767px) {
-  .parrafo_producto__style p {
-    font-size: 12.5px;
-    color: darkviolet;
-    text-aling: center;
-    font-style: italic; } }
-
-.parrafo_producto__form___style p {
-  font-size: 25px;
-  color: darkviolet;
-  text-align: right;
-  font-style: italic; }
-
-.galeria_color {
-  background-color: black; }
-
-.titulo_galeria h1 {
-  font-size: 40px;
-  color: red;
-  text-align: center;
-  text-decoration: underline; }
-
-@media only screen and (max-width: 767px) {
-  .titulo_galeria h1 {
-    font-size: 20px;
-    color: red;
-    text-align: center;
-    text-decoration: underline; } }
+.backgroundNav {
+  background-color: red; }
 
 .tamañoNav {
   font-size: 40px; }
@@ -323,21 +93,17 @@
     .tamañoNav {
       font-size: 20px; } }
 
-.tamañoVideo__index {
-  width: 550px;
-  height: 400px; }
-  @media only screen and (max-width: 767px) {
-    .tamañoVideo__index {
-      width: 150px;
-      height: 150px; } }
+.txtNav a {
+  color: black;
+  text-align: center; }
 
-.tamañoImagen_galeria {
-  width: 300px;
-  height: 300px; }
+.tamañoImagen {
+  width: 600px;
+  height: 600px; }
   @media only screen and (max-width: 767px) {
-    .tamañoImagen_galeria {
-      width: 150px;
-      height: 150px; } }
+    .tamañoImagen {
+      width: 250px;
+      height: 250px; } }
 
 @media only screen and (max-width: 767px) {
   .tamañoMapaContacto {
@@ -362,6 +128,9 @@
 .marginID {
   margin-left: 50px;
   margin-right: 50px; }
+
+.centrar {
+  margin-left: 250px; }
 
 .boton--facebook {
   color: blue;
