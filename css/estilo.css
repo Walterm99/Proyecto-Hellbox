@@ -19,7 +19,7 @@
 
 .parrafos p {
   font-size: 25px;
-  color: black;
+  color: #757170;
   text-aling: right;
   font-style: bold; }
 
@@ -80,7 +80,7 @@
 
 .parrafos p {
   font-size: 25px;
-  color: black;
+  color: #757170;
   text-aling: right;
   font-style: bold; }
 
@@ -132,27 +132,5 @@
 .centrar {
   margin-left: 250px; }
 
-.boton--facebook {
-  color: blue;
-  border: 1px solid blue;
-  text-decoration: none; }
-
-.boton--whatsapp {
-  color: green;
-  border: 1px solid green;
-  text-decoration: none; }
-
-.boton--instagram {
-  color: violet;
-  border: 1px solid violet;
-  text-decoration: none; }
-
-.boton--inicio {
-  color: black;
-  border: 1px solid black;
-  text-decoration: none; }
-
-.boton--home {
-  color: darkblue;
-  border: 1px solid darkblue;
-  text-decoration: none; }
+.marginD {
+  margin-right: 50px; }

@@ -2,6 +2,7 @@
 @import "colores";
 $padding:50px;
 $margin:50px;
+//se asignan margenes para la pagina
 .paddingTB{
 	padding-top:$padding;
 	padding-bottom:$padding;
@@ -13,4 +14,8 @@ $margin:50px;
 
 .centrar{
 	margin-left:$margin*5;
+}
+
+.marginD{
+	margin-right:$margin
 }
