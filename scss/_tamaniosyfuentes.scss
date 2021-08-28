@@ -1,6 +1,8 @@
 @import "colores";
 $tituloDesktop:40px;
+$subtituloDesktop:30px;
 $tituloMobile:$tituloDesktop/2;
+$subtituloMobile:$subtituloDesktop/2;
 $parrafoDesktop:25px;
 $parrafoMobile:$parrafoDesktop/2;
 
@@ -23,8 +25,15 @@ $parrafoMobile:$parrafoDesktop/2;
 }
 .subtitulos{
 	h2{font-size:$tituloMobile;
-	color:$Violeta;
+	color:$Rojo;
 	text-align:center;}
+	@media only screen and(max-width:767px){
+	h2{
+	font-size:$subtituloMobile;
+	color:$Violeta;
+	text-align:center;
+	}
+	}
 }
 .parrafos{
 	p{
@@ -33,16 +42,21 @@ $parrafoMobile:$parrafoDesktop/2;
 		text-aling:right;
 		font-style:bold;
 	}
+	@media only screen and(max-width:767px){
+	p{
+	font-size:$parrafoMobile;
+		color:$Gris;
+		text-aling:right;
+		font-style:bold;
+	}
+	}
 }
 
 
 
 
 //Personalizacion del nav
-.backgroundNav{
-	background-color:$Rojo
 
-}
 
 .tamañoNav{
 	font-size:$tituloDesktop;
