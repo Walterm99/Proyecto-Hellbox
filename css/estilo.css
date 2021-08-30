@@ -47,12 +47,16 @@
   text-align: center; }
 
 .tamañoImagen {
-  width: 600px;
-  height: 600px; }
+  width: 405px;
+  height: 270px; }
   @media only screen and (max-width: 767px) {
     .tamañoImagen {
       width: 250px;
       height: 250px; } }
+
+@media only screen and (max-width: 767px) {
+  .ocultarImagen {
+    display: none; } }
 
 @media only screen and (max-width: 767px) {
   .tamañoMapaContacto {
@@ -118,12 +122,16 @@
   text-align: center; }
 
 .tamañoImagen {
-  width: 600px;
-  height: 600px; }
+  width: 405px;
+  height: 270px; }
   @media only screen and (max-width: 767px) {
     .tamañoImagen {
       width: 250px;
       height: 250px; } }
+
+@media only screen and (max-width: 767px) {
+  .ocultarImagen {
+    display: none; } }
 
 @media only screen and (max-width: 767px) {
   .tamañoMapaContacto {
@@ -154,3 +162,7 @@
 
 .marginD {
   margin-right: 50px; }
+
+.box {
+  height: 270px;
+  width: 405px; }

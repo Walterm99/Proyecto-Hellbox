@@ -17,7 +17,7 @@
 </head>
 <body>
 	<header>
-	<nav class="navbar navbar-expand-lg tamañoNav txtNav">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light txtNav tamañoNav">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -46,24 +46,7 @@
     
   </div>
 </nav>
-			<!-- contenedor nav -->
-				<!-- <nav class="navbar navbar-expand-lg tamañoNav txtNav ">
-  					<a class="navbar-brand" href="#"><img src="../assets/img/logo2.png"></a>
-  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    				<span class="navbar-toggler-icon"></span>
-  					</button>
- 				 	<div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-    					<div class="navbar-nav">
-      					<a class="nav-link active" href="../index.html">Inicio </a>
-     			 		<a class="nav-link" href="../views/CONTACTO.HTML">Contacto</a>
-      					<a class="nav-link" href="../views/NOSOTROS.HTML">Nosotros</a>
-      					<a class="nav-link" href="../views/PRODUCTOS.HTML">Productos</a>
-      					<a class="nav-link" href="../views/BENEFICIOS.HTML">Beneficios</a>
-   		 				</div>
-  					</div>
-				</nav>				
-			 -->
-	<!-- fin nav -->
+			
 	</header>
 	<div class="row marginID paddingTB">
 		<section class=" col-lg-12 col-xs-12 titulos">
@@ -75,7 +58,7 @@
 			<p>Completando el siguiente formulario te registras en nuestro sitio para recibir increibles beneficios y lo mejor es que es gratis!</p>	
 		</section>		
 		<section>
-	<div class="row marginID">
+	<div class="row marginID" data-aos="fade-up">
 		<form>
 		<div class="form-row">
     <div class="col">
@@ -99,7 +82,7 @@
   </div>
   <div class="form-group">
     <label for="inputAddress">Direccion</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" class="form-control" id="inputAddress" >
   </div>
    <div class="form-row">
     <div class="form-group col-md-6">
@@ -119,11 +102,37 @@
 </form>
 	</div>
 	</section>
-	<section class="col-lg-6 col-xs-6">
+	<section class="col-lg-6 col-xs-6 ocultarImagen" data-aos="fade-up">
 		<img src="../assets/img/bolsa.jpg" alt="">
 	</section>
 </div>
-
+<footer class="row paddingTB marginID">
+      <section class="  col-lg-4 col-xs-4 subtitulos">
+        <h2>mantene el conctacto en nuestras redes </h2><br>
+      </section>
+      
+      <div class="row col-lg-4 col-xs-4 justify-content-center" >
+        <div class="marginD">
+        <a href="../index.html" ><img src="../assets/icons/home.svg" width="40" height="40" alt=""></a>
+      </div>
+      <div class="marginD">
+        <a href="https://www.facebook.com/search/top?q=hellbox%20fitness%20center" target="_blank" ><img src="../assets/icons/facebook.svg" width="40" height="40" alt=""></a>
+        
+      </div >
+        <div class="marginD">
+        <a href="views/404.html" ><img src="../assets/icons/instagram2.svg" width="40" height="40" alt="instagram"></a>
+        
+      </div>
+      </div>
+        
+      
+      <section class="col-lg-8 col-xs-8">
+        <img src="../assets/img/logopersonal.jpg" width="50" height="50" alt="">
+      <img src="../assets/icons/copyright.svg" width="20" height="20" alt="">2021 Walter Moya todos los derechos reservados
+      </section>
+      
+      
+    </footer>
 </body>
 <script>
 $(document).ready(function(){

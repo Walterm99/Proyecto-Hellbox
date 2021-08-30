@@ -70,10 +70,17 @@ $parrafoMobile:$parrafoDesktop/2;
 	}
 }
 
+
+
 //Personalizacion en tamaño de imagenes
-.tamañoImagen{width:600px; height:600px;
+.tamañoImagen{width:405px; height:270px;
 @media only screen and (max-width:767px){width:250px; height:250px;}
 }
+
+.ocultarImagen{
+	@media only screen and(max-width:767px){display:none}
+}
+
 
 //Personalizacion del tamaño del mapa
 .tamañoMapaContacto{

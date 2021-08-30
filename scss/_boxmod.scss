@@ -17,5 +17,12 @@ $margin:50px;
 }
 
 .marginD{
-	margin-right:$margin
+	margin-right:$margin;
+}
+
+//Dimensionar el div del slider
+
+.box{
+	height:270px;
+	width:405px;
 }
