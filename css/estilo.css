@@ -8,7 +8,7 @@
 @media only screen and (max-width: 767px) {
   .titulos h1 {
     font-size: 20px;
-    color: black;
+    color: red;
     text-align: center;
     text-decoration: underline; } }
 
@@ -20,7 +20,7 @@
 @media only screen and (max-width: 767px) {
   .subtitulos h2 {
     font-size: 15px;
-    color: violet;
+    color: black;
     text-align: center; } }
 
 .parrafos p {
@@ -79,7 +79,7 @@
 @media only screen and (max-width: 767px) {
   .titulos h1 {
     font-size: 20px;
-    color: black;
+    color: red;
     text-align: center;
     text-decoration: underline; } }
 
@@ -91,7 +91,7 @@
 @media only screen and (max-width: 767px) {
   .subtitulos h2 {
     font-size: 15px;
-    color: violet;
+    color: black;
     text-align: center; } }
 
 .parrafos p {
